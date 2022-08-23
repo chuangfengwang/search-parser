@@ -79,10 +79,10 @@ class GoogleParserTestCase(GoogleParserTests):
         self.assertEqual(page_num, 2)
 
     def test3(self):
-        html = self.get_data('1_人工智能-2_2022-08-22.html')
+        html = self.get_data('1_人工智能-1_2022-08-22.html')
         parser = GoogleParser(html, snippet_fields=('d', 'p', 'u', 't', 's', 'm', 'h', 'vu', 'type', 'time'))
         snippets = parser.get_snippets()
-        # print(json.dumps(snippets, ensure_ascii=False, indent=4))
+        print(json.dumps(snippets, ensure_ascii=False, indent=4))
         self.assertEqual(len(snippets), 9)
         for snippet in snippets:
             self.assertTrue(snippet.get('p'))

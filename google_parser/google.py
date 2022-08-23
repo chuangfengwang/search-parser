@@ -20,10 +20,49 @@ import unicodedata
 from urllib.parse import quote, unquote
 from urllib.parse import urlparse, urlunsplit, urlsplit, urljoin
 
+from lxml import etree
+from bs4 import BeautifulSoup
 from pyquery import PyQuery
 from scrapy.selector import Selector
 
-from google_parser.exceptions import SnippetsParserException, GoogleParserError, NoBodyInResponseError
+from .exceptions import SnippetsParserException, GoogleParserError, NoBodyInResponseError
+
+
+class GoogleSerpCleaner(object):
+    flags = re.U | re.I | re.M | re.S
+
+    _patterns = (
+        r'<script.*?<\/script>',
+        r'<style.*?<\/style>',
+        r'onmousedown=".*?"',
+        r'onclick=".*?"',
+        r'class=".*?"',
+        r'target="_blank"',
+        r'title=".*?"',
+        r'ondblclick=".*?"',
+        r'style=".*?"',
+        r'<i\s+><\/i>',
+        r'\s+tabindex="\d+"',
+        r'<noscript>.*?<\/noscript>',
+        r'<link.*?/>',
+        r'><!--.*?-->',
+        r'<i\s+><\/i>',
+    )
+    patterns = []
+    for p in _patterns:
+        patterns.append(re.compile(p, flags=re.U | re.I | re.M | re.S))
+    patterns = tuple(patterns)
+
+    no_space = re.compile(r'\s+', flags=flags)
+
+    @classmethod
+    def clean(cls, content):
+        content = content
+        for p in cls.patterns:
+            content = p.sub('', content)
+
+        content = cls.no_space.sub(' ', content)
+        return content
 
 
 class GoogleParser(object):
@@ -108,32 +147,37 @@ class SnippetsParserDefault(object):
     def get_snippets(self, body):
         body_list = []
         body_selector = Selector(text=body)
-        main_div = body_selector.css('div.main').getall()
-        if len(main_div) == 0:
+        main_div_list = body_selector.css('div.main').getall()
+        if len(main_div_list) == 0:
             raise NoBodyInResponseError('no body in response')
         else:
-            for body_div in main_div:
-                body_list.append(str(body_div))
+            for main_div in main_div_list:
+                body_list.append(main_div)
 
         result = []
         position = 0
         for body_html in body_list:
-            snippet_selector = Selector(text=body_html)
-            snippets = snippet_selector.css('div.g').getall()
-            snippets = [str(snippet) for snippet in snippets]
+            snippet_selector = Selector(text=body_html, type='html')
+            snippets = snippet_selector.css('div.g.tF2Cxc').getall()
+            # soup = BeautifulSoup(body_html, "html5lib")
+            # body_html = soup.prettify()
+            # dom = PyQuery(body_html)
+            # snippets = dom('div.g.tF2Cxc')
 
             for snippet in snippets:
+                # html = etree.tostring(snippet).decode()
+                html = snippet
                 position += 1
                 try:
-                    item = self.get_snippet(position, snippet)
+                    item = self.get_snippet(position, html)
                 except SnippetsParserException:
-                    if self._is_empty_snippet(snippet):
+                    if self._is_empty_snippet(html):
                         position -= 1
                         continue
                     else:
                         raise
 
-                # игнорим сниппет с картинками
+                # 跳过图片
                 if self._is_map_snippet(item['u']) or item['u'].startswith('/search'):
                     position -= 1
                     continue
@@ -327,9 +371,12 @@ class SnippetsParserDefault(object):
             else:
                 return self._parse_description_snippet(snippet)
 
-    def _get_html(self, snippet):
+    def _get_html(self, snippet, clean_tag=True):
         """结果片段的 html"""
         if 'h' in self.snippet_fields:
+            if clean_tag:
+                # 清除无关 tag
+                return GoogleSerpCleaner.clean(snippet)
             return snippet
 
     def _get_vu(self, snippet):
