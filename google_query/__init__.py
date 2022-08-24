@@ -44,7 +44,9 @@ class GoogleQuery:
     regions = regions
     regions_coords = regions_coords
 
-    def __init__(self, zone, query, tbs='', region=None, start=0, num=10, zone_params=None, always_params='as_dt=e',
+    def __init__(self, zone, query, tbs='', region=None, start=0,
+                 num=10, zone_params=None,
+                 always_params='as_dt=e',
                  custom_params=None):
         """
 

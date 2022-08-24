@@ -24,7 +24,8 @@ splash_agent = SplashAgent(splash_url=splash_html_url, splash_proxy=splash_proxy
 
 query = '查询词,搜索框输入的内容'
 time_select = 'y'  # '':不设定,'y':过去一年,'m':过去一月,'w':过去一周,'d':过去一天,'h':过去一小时
-query_url = GoogleQuery('com', query=query, tbs=time_select).get_url()
+page_num = 0  # 需要第几页结果,从 0 开始编号
+query_url = GoogleQuery(zone='com', query=query, tbs=time_select, start=page_num).get_url()
 
 html = splash_agent.get_html(query_url)
 parser = GoogleParser(html)
@@ -186,7 +187,6 @@ return {
 ```
 
 ### known bugs
-
 
 ### 致谢
 
