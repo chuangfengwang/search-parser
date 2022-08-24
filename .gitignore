@@ -145,3 +145,4 @@ cython_debug/
 
 # proj
 _trial_temp
+tmp.*

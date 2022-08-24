@@ -30,7 +30,7 @@ def fetch_htm_by_splash(url: str, file_name: str):
 
 def test1():
     """从搜索词生成页面 html 文件"""
-    query = '人工智能'
+    query = '第四范式招股书'
     pdf_only = False
     time_select = 'Y'
 
@@ -38,7 +38,7 @@ def test1():
         query += ' filetype:pdf'
     query_url = GoogleQuery('com', query, time_select).get_url()
 
-    _ = fetch_htm_by_splash(query_url, '1_人工智能-1_{}.html'.format(gen_datetime_postfix()))
+    _ = fetch_htm_by_splash(query_url, '1_第四范式招股书-1_{}.html'.format(gen_datetime_postfix()))
 
 
 def test2():
@@ -48,6 +48,6 @@ def test2():
 
 
 if __name__ == '__main__':
-    # test1()
+    test1()
     # test2()
     pass

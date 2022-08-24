@@ -63,11 +63,11 @@ json 结果样例如下
     "d": "zh.m.wikipedia.org",
     "m": false,
     "t": "人工智能- 维基百科，自由的百科全书",
-    "s": "人工智能可以定義為模仿人類與人類思維相關的認知功能的機器或計算機，如學習和解決問題。人工智能是計算機科學的一個分支，它感知其環境並採取行動，最大限度地提高其成功 ... 人工智慧(AI) 是透過建立及應用內建於動態運算環境中的演算法，來模擬人類智慧過程的基礎。簡言之， AI 的目標是試圖讓電腦像人類一樣思考和行動。 實現這項目標需要三個 ... 人工智能（Artificial Intelligence），英文縮寫為AI。它是研究、開發用於模擬、延伸和擴展人的智能的理論、方法、技術及應用系統的一門新的技術科學。人工智能是 ... 简单来说，人工智能(AI) 是指可模仿人类智能来执行任务，并基于收集的信息对自身进行迭代式改进的系统和机器。AI 具有多种形式。例如： ... AI 更多的是一种为超级思考和数据 ... 人工智能(AI) 是致力于解决通常与人工智能相关联的认知性问题的计算机科学领域，这些问题包括学习、问题解决和模式识别等。提起人工智能（通常缩写为“AI”），人们可能 ... 从广义上来说，人工智能(AI) 是指机器或系统所呈现的任何模拟人类的行为。最基本的AI 形式是对计算机进行编程，使它们能够根据从过去类似行为中收集的海量数据来“模拟” ... 人工智能(AI) 让机器可以从经验中学习，适应新的输入并像人一样完成任务。您今天所听说到的大多数AI 示例–从下国际象棋的计算机到自动驾驶汽车–都十分依赖深度学习和 ... 現時有兩個主要方法利用電腦、機器、程式及源碼的決策及解決問題能力來模擬人類思維與本能，包括人性化方法及理想化方法。 人工智能; 人性化方法; 理性方法 ... Dec 28, 2018 — 人工智能（Artificial Intelligence），英文缩写为AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学。",
-    "h": "<div class= <very long html text>\n",
-    "vu": "https://zh.m.wikipedia.org › zh-hant https://www.netapp.com › zh-hant https://baike.baidu.hk › item › 人工... https://www.oracle.com › what-is-ai https://aws.amazon.com › what-is-ai https://www.hpe.com › what-is › artif... https://www.sas.com › ... › 分析 https://www.trendmicro.com › what-is https://easyai.tech › ai-definition",
+    "s": "人工智能可以定義為模仿人類與人類思維相關的認知功能的機器或計算機，如學習和解決問題。人工智能是計算機科學的一個分支，它感知其環境並採取行動，最大限度地提高其成功 ...",
+    "h": "<div class=\"kvH3mc BToiNc UK95Uc\" data-sokoban-container=\"ih6Jnb_lytCU\"><div class=\"Z26q7c UK95Uc uUuwM jGGQ5e\" data-header-feature=\"0\"><div class=\"yuRUbf\"><a data-jsarwt=\"1\" data-usg=\"AOvVaw0AEJKJCISnoz6-C5XGA1TX\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8QFnoECAkQAQ\" href=\"https://zh.m.wikipedia.org/zh-hant/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD\"><br><h3 class=\"LC20lb MBeuO DKV0Md\">人工智能- 维基百科，自由的百科全书</h3><div class=\"TbwUpd NJjxre\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://zh.m.wikipedia.org<span class=\"dyjrff qzEoUe\" role=\"text\"> › zh-hant</span></cite></div></a><div class=\"B6fmyf\"><div class=\"TbwUpd\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://zh.m.wikipedia.org<span class=\"dyjrff qzEoUe\" role=\"text\"> › zh-hant</span></cite></div><div class=\"eFM0qc\"><span class=\"LAWljd\"> · </span><a class=\"fl iUh30\" data-jsarwt=\"1\" data-usg=\"AOvVaw0y6zqfTtr0GkNk9-3_7zTl\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q7gF6BAgJEAU\" href=\"https://translate.google.com/translate?hl=en&sl=zh-TW&u=https://zh.m.wikipedia.org/zh-hant/%25E4%25BA%25BA%25E5%25B7%25A5%25E6%2599%25BA%25E8%2583%25BD&prev=search&pto=aue\"></a></div><div class=\"csDOgf\"><div data-isdesktop=\"true\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2esEegQICRAG\"><div><div aria-label=\"About this Result\" class=\"iTPLzd GUHazd lUn2nc eY4mx\" role=\"button\" style=\"padding-bottom:20px;padding-right:5px;position:absolute\" tabindex=\"0\"><span class=\"D6lY4c\"><span class=\"xTFaxe IjabWd z1asCe SaPW2b\" style=\"height:18px;line-height:18px;width:18px\"></span></span></div><span data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Qh-4GegQICRAH\"></span></div></div></div></div></div></div><div class=\"Z26q7c UK95Uc uUuwM\" data-content-feature=\"1\"><div class=\"VwiC3b yXK7lf MUxGbd yDYNvb lyLwlc lEBKkf\" style=\"-webkit-line-clamp:2\"><span><em>人工智能</em>可以定義為模仿人類與人類思維相關的認知功能的機器或計算機，如學習和解決問題。<em>人工智能</em>是計算機科學的一個分支，它感知其環境並採取行動，最大限度地提高其成功 ...</span></div></div><div class=\"Z26q7c UK95Uc uUuwM\" data-content-feature=\"2\" style=\"margin-top:5px;margin-bottom:5px\"><div class=\"IThcWe\" data-hveid=\"CA0QAA\"><div class=\"YgpRwf\"><div class=\"wFMWsc JCsJK OSrXXb\"><div class=\"rEYMH OSrXXb\"><span class=\"YrbPuc WGKbId BBwThe\">馬新: </span><span class=\"wHYlTd z8gr9e\">人工智能、人工智慧</span></div></div><div class=\"wFMWsc OSrXXb\"><div class=\"rEYMH OSrXXb\"><span class=\"YrbPuc WGKbId BBwThe\">日韓: </span><span class=\"wHYlTd z8gr9e\">人工知能</span></div></div></div></div></div><div class=\"Z26q7c UK95Uc\"><div data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2Z0BegQIAxAA\" id=\"eob_1\"></div></div></div></div></body></html>",
+    "vu": "https://zh.m.wikipedia.org › zh-hant",
     "type": "URL",
-    "time": "Dec 28, 2018 "
+    "time": ""
   },
   {
     "p": 2,
@@ -75,11 +75,11 @@ json 结果样例如下
     "d": "netapp.com",
     "m": false,
     "t": "什麼是人工智慧（即AI）？為什麼人工智慧很重要 - NetApp",
-    "s": "人工智慧(AI) 是透過建立及應用內建於動態運算環境中的演算法，來模擬人類智慧過程的基礎。簡言之， AI 的目標是試圖讓電腦像人類一樣思考和行動。 實現這項目標需要三個 ... 人工智能（Artificial Intelligence），英文縮寫為AI。它是研究、開發用於模擬、延伸和擴展人的智能的理論、方法、技術及應用系統的一門新的技術科學。人工智能是 ... 简单来说，人工智能(AI) 是指可模仿人类智能来执行任务，并基于收集的信息对自身进行迭代式改进的系统和机器。AI 具有多种形式。例如： ... AI 更多的是一种为超级思考和数据 ... 人工智能(AI) 是致力于解决通常与人工智能相关联的认知性问题的计算机科学领域，这些问题包括学习、问题解决和模式识别等。提起人工智能（通常缩写为“AI”），人们可能 ... 从广义上来说，人工智能(AI) 是指机器或系统所呈现的任何模拟人类的行为。最基本的AI 形式是对计算机进行编程，使它们能够根据从过去类似行为中收集的海量数据来“模拟” ... 人工智能(AI) 让机器可以从经验中学习，适应新的输入并像人一样完成任务。您今天所听说到的大多数AI 示例–从下国际象棋的计算机到自动驾驶汽车–都十分依赖深度学习和 ... 現時有兩個主要方法利用電腦、機器、程式及源碼的決策及解決問題能力來模擬人類思維與本能，包括人性化方法及理想化方法。 人工智能; 人性化方法; 理性方法 ... Dec 28, 2018 — 人工智能（Artificial Intelligence），英文缩写为AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学。",
-    "h": "<div class= <very long html text>\n",
-    "vu": "https://www.netapp.com › zh-hant https://baike.baidu.hk › item › 人工... https://www.oracle.com › what-is-ai https://aws.amazon.com › what-is-ai https://www.hpe.com › what-is › artif... https://www.sas.com › ... › 分析 https://www.trendmicro.com › what-is https://easyai.tech › ai-definition",
+    "s": "人工智慧(AI) 是透過建立及應用內建於動態運算環境中的演算法，來模擬人類智慧過程的基礎。簡言之， AI 的目標是試圖讓電腦像人類一樣思考和行動。 實現這項目標需要三個 ...",
+    "h": "<div class=\"kvH3mc BToiNc UK95Uc\" data-sokoban-container=\"ih6Jnb_QAFUae\"><div class=\"Z26q7c UK95Uc uUuwM jGGQ5e\" data-header-feature=\"0\"><div class=\"yuRUbf\"><a data-jsarwt=\"1\" data-usg=\"AOvVaw3jW8SPOYvbfsfdfIlc8Itz\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8QFnoECAoQAQ\" href=\"https://www.netapp.com/zh-hant/artificial-intelligence/what-is-artificial-intelligence/\"><br><h3 class=\"LC20lb MBeuO DKV0Md\">什麼是人工智慧（即AI）？為什麼人工智慧很重要 - NetApp</h3><div class=\"TbwUpd NJjxre\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://www.netapp.com<span class=\"dyjrff qzEoUe\" role=\"text\"> › zh-hant</span></cite></div></a><div class=\"B6fmyf\"><div class=\"TbwUpd\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://www.netapp.com<span class=\"dyjrff qzEoUe\" role=\"text\"> › zh-hant</span></cite></div><div class=\"eFM0qc\"><span class=\"LAWljd\"> · </span><a class=\"fl iUh30\" data-jsarwt=\"1\" data-usg=\"AOvVaw1NafthMVt96imqAihIb8uD\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q7gF6BAgKEAU\" href=\"https://translate.google.com/translate?hl=en&sl=zh-TW&u=https://www.netapp.com/zh-hant/artificial-intelligence/what-is-artificial-intelligence/&prev=search&pto=aue\"></a></div><div class=\"csDOgf\"><div data-isdesktop=\"true\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2esEegQIChAG\"><div><div aria-label=\"About this Result\" class=\"iTPLzd GUHazd lUn2nc eY4mx\" role=\"button\" style=\"padding-bottom:20px;padding-right:5px;position:absolute\" tabindex=\"0\"><span class=\"D6lY4c\"><span class=\"xTFaxe IjabWd z1asCe SaPW2b\" style=\"height:18px;line-height:18px;width:18px\"></span></span></div><span data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Qh-4GegQIChAH\"></span></div></div></div></div></div></div><div class=\"Z26q7c UK95Uc uUuwM\" data-content-feature=\"1\"><div class=\"VwiC3b yXK7lf MUxGbd yDYNvb lyLwlc lEBKkf\" style=\"-webkit-line-clamp:2\"><span><em>人工</em>智慧(AI) 是透過建立及應用內建於動態運算環境中的演算法，來模擬人類智慧過程的基礎。簡言之， AI 的目標是試圖讓電腦像人類一樣思考和行動。 實現這項目標需要三個 ...</span></div></div><div class=\"Z26q7c UK95Uc\"><div data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2Z0BegQIBRAA\" id=\"eob_3\"></div></div></div></div></body></html>",
+    "vu": "https://www.netapp.com › zh-hant",
     "type": "URL",
-    "time": "Dec 28, 2018 "
+    "time": ""
   },
   {
     "p": 3,
@@ -87,11 +87,11 @@ json 结果样例如下
     "d": "baike.baidu.hk",
     "m": false,
     "t": "人工智能_百度百科",
-    "s": "人工智能（Artificial Intelligence），英文縮寫為AI。它是研究、開發用於模擬、延伸和擴展人的智能的理論、方法、技術及應用系統的一門新的技術科學。人工智能是 ... 简单来说，人工智能(AI) 是指可模仿人类智能来执行任务，并基于收集的信息对自身进行迭代式改进的系统和机器。AI 具有多种形式。例如： ... AI 更多的是一种为超级思考和数据 ... 人工智能(AI) 是致力于解决通常与人工智能相关联的认知性问题的计算机科学领域，这些问题包括学习、问题解决和模式识别等。提起人工智能（通常缩写为“AI”），人们可能 ... 从广义上来说，人工智能(AI) 是指机器或系统所呈现的任何模拟人类的行为。最基本的AI 形式是对计算机进行编程，使它们能够根据从过去类似行为中收集的海量数据来“模拟” ... 人工智能(AI) 让机器可以从经验中学习，适应新的输入并像人一样完成任务。您今天所听说到的大多数AI 示例–从下国际象棋的计算机到自动驾驶汽车–都十分依赖深度学习和 ... 現時有兩個主要方法利用電腦、機器、程式及源碼的決策及解決問題能力來模擬人類思維與本能，包括人性化方法及理想化方法。 人工智能; 人性化方法; 理性方法 ... Dec 28, 2018 — 人工智能（Artificial Intelligence），英文缩写为AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学。",
-    "h": "nonce=\"jvPSXpz-kiNSu-iq-GtKlA\"></script></body></html>\n",
-    "vu": "https://baike.baidu.hk › item › 人工... https://www.oracle.com › what-is-ai https://aws.amazon.com › what-is-ai https://www.hpe.com › what-is › artif... https://www.sas.com › ... › 分析 https://www.trendmicro.com › what-is https://easyai.tech › ai-definition",
+    "s": "人工智能（Artificial Intelligence），英文縮寫為AI。它是研究、開發用於模擬、延伸和擴展人的智能的理論、方法、技術及應用系統的一門新的技術科學。人工智能是 ...",
+    "h": "<div class=\"kvH3mc BToiNc UK95Uc\" data-sokoban-container=\"ih6Jnb_c553gc\"><div class=\"Z26q7c UK95Uc uUuwM jGGQ5e\" data-header-feature=\"0\"><div class=\"yuRUbf\"><a data-jsarwt=\"1\" data-usg=\"AOvVaw1cs98FQkhF3yCno8AwMCnO\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8QFnoECAsQAQ\" href=\"https://baike.baidu.hk/item/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/9180\"><br><h3 class=\"LC20lb MBeuO DKV0Md\">人工智能_百度百科</h3><div class=\"TbwUpd NJjxre\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://baike.baidu.hk<span class=\"dyjrff qzEoUe\" role=\"text\"> › item › 人工...</span></cite></div></a><div class=\"B6fmyf\"><div class=\"TbwUpd\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://baike.baidu.hk<span class=\"dyjrff qzEoUe\" role=\"text\"> › item › 人工...</span></cite></div><div class=\"eFM0qc\"><span class=\"LAWljd\"> · </span><a class=\"fl iUh30\" data-jsarwt=\"1\" data-usg=\"AOvVaw3hVCx8KFBNa1ZRIwH8bVZC\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q7gF6BAgLEAU\" href=\"https://translate.google.com/translate?hl=en&sl=zh-TW&u=https://baike.baidu.hk/item/%25E4%25BA%25BA%25E5%25B7%25A5%25E6%2599%25BA%25E8%2583%25BD/9180&prev=search&pto=aue\"></a></div><div class=\"csDOgf\"><div data-isdesktop=\"true\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2esEegQICxAG\"><div><div aria-label=\"About this Result\" class=\"iTPLzd GUHazd lUn2nc eY4mx\" role=\"button\" style=\"padding-bottom:20px;padding-right:5px;position:absolute\" tabindex=\"0\"><span class=\"D6lY4c\"><span class=\"xTFaxe IjabWd z1asCe SaPW2b\" style=\"height:18px;line-height:18px;width:18px\"></span></span></div><span data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Qh-4GegQICxAH\"></span></div></div></div></div></div></div><div class=\"Z26q7c UK95Uc uUuwM\" data-content-feature=\"1\"><div class=\"VwiC3b yXK7lf MUxGbd yDYNvb lyLwlc lEBKkf\" style=\"-webkit-line-clamp:2\"><span><em>人工智能</em>（Artificial Intelligence），英文縮寫為AI。它是研究、開發用於模擬、延伸和擴展人的智能的理論、方法、技術及應用系統的一門新的技術科學。<em>人工智能</em>是 ...</span></div></div><div class=\"Z26q7c UK95Uc\"><div data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2Z0BegQIBhAA\" id=\"eob_4\"></div></div></div></div></body></html>",
+    "vu": "https://baike.baidu.hk › item › 人工...",
     "type": "URL",
-    "time": "Dec 28, 2018 "
+    "time": ""
   },
   {
     "p": 4,
@@ -99,11 +99,11 @@ json 结果样例如下
     "d": "oracle.com",
     "m": false,
     "t": "人工智能(AI) 是什么| Oracle 中国",
-    "s": "简单来说，人工智能(AI) 是指可模仿人类智能来执行任务，并基于收集的信息对自身进行迭代式改进的系统和机器。AI 具有多种形式。例如： ... AI 更多的是一种为超级思考和数据 ... 人工智能(AI) 是致力于解决通常与人工智能相关联的认知性问题的计算机科学领域，这些问题包括学习、问题解决和模式识别等。提起人工智能（通常缩写为“AI”），人们可能 ... 从广义上来说，人工智能(AI) 是指机器或系统所呈现的任何模拟人类的行为。最基本的AI 形式是对计算机进行编程，使它们能够根据从过去类似行为中收集的海量数据来“模拟” ... 人工智能(AI) 让机器可以从经验中学习，适应新的输入并像人一样完成任务。您今天所听说到的大多数AI 示例–从下国际象棋的计算机到自动驾驶汽车–都十分依赖深度学习和 ... 現時有兩個主要方法利用電腦、機器、程式及源碼的決策及解決問題能力來模擬人類思維與本能，包括人性化方法及理想化方法。 人工智能; 人性化方法; 理性方法 ... Dec 28, 2018 — 人工智能（Artificial Intelligence），英文缩写为AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学。",
-    "h": "<div class= <very long html text>\n",
-    "vu": "https://www.oracle.com › what-is-ai https://aws.amazon.com › what-is-ai https://www.hpe.com › what-is › artif... https://www.sas.com › ... › 分析 https://www.trendmicro.com › what-is https://easyai.tech › ai-definition",
+    "s": "简单来说，人工智能(AI) 是指可模仿人类智能来执行任务，并基于收集的信息对自身进行迭代式改进的系统和机器。AI 具有多种形式。例如： ... AI 更多的是一种为超级思考和数据 ...",
+    "h": "<div class=\"kvH3mc BToiNc UK95Uc\" data-sokoban-container=\"ih6Jnb_SDcg5c\"><div class=\"Z26q7c UK95Uc uUuwM jGGQ5e\" data-header-feature=\"0\"><div class=\"yuRUbf\"><a data-jsarwt=\"1\" data-usg=\"AOvVaw140pWOMYLzJL6Eflmn3F7G\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8QFnoECAgQAQ\" href=\"https://www.oracle.com/cn/artificial-intelligence/what-is-ai/\"><br><h3 class=\"LC20lb MBeuO DKV0Md\">人工智能(AI) 是什么| Oracle 中国</h3><div class=\"TbwUpd NJjxre\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://www.oracle.com<span class=\"dyjrff qzEoUe\" role=\"text\"> › what-is-ai</span></cite></div></a><div class=\"B6fmyf\"><div class=\"TbwUpd\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://www.oracle.com<span class=\"dyjrff qzEoUe\" role=\"text\"> › what-is-ai</span></cite></div><div class=\"eFM0qc\"><span class=\"LAWljd\"> · </span><a class=\"fl iUh30\" data-jsarwt=\"1\" data-usg=\"AOvVaw0sHYNFwIPuUsbzvqDbFl8l\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q7gF6BAgIEAU\" href=\"https://translate.google.com/translate?hl=en&sl=zh-CN&u=https://www.oracle.com/cn/artificial-intelligence/what-is-ai/&prev=search&pto=aue\"></a></div><div class=\"csDOgf\"><div data-isdesktop=\"true\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2esEegQICBAG\"><div><div aria-label=\"About this Result\" class=\"iTPLzd GUHazd lUn2nc eY4mx\" role=\"button\" style=\"padding-bottom:20px;padding-right:5px;position:absolute\" tabindex=\"0\"><span class=\"D6lY4c\"><span class=\"xTFaxe IjabWd z1asCe SaPW2b\" style=\"height:18px;line-height:18px;width:18px\"></span></span></div><span data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Qh-4GegQICBAH\"></span></div></div></div></div></div></div><div class=\"Z26q7c UK95Uc uUuwM\" data-content-feature=\"1\"><div class=\"VwiC3b yXK7lf MUxGbd yDYNvb lyLwlc lEBKkf\" style=\"-webkit-line-clamp:2\"><span>简单来说，<em>人工智能</em>(AI) 是指可模仿人类智能来执行任务，并基于收集的信息对自身进行迭代式改进的系统和机器。AI 具有多种形式。例如： ... AI 更多的是一种为超级思考和数据 ...</span></div></div><div class=\"Z26q7c UK95Uc\"><div data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2Z0BegQIBxAA\" id=\"eob_5\"></div></div></div></div></body></html>",
+    "vu": "https://www.oracle.com › what-is-ai",
     "type": "URL",
-    "time": "Dec 28, 2018 "
+    "time": ""
   },
   {
     "p": 5,
@@ -111,11 +111,11 @@ json 结果样例如下
     "d": "aws.amazon.com",
     "m": false,
     "t": "什么是人工智能？_深度学习是什么？ - AWS 云服务",
-    "s": "人工智能(AI) 是致力于解决通常与人工智能相关联的认知性问题的计算机科学领域，这些问题包括学习、问题解决和模式识别等。提起人工智能（通常缩写为“AI”），人们可能 ... 从广义上来说，人工智能(AI) 是指机器或系统所呈现的任何模拟人类的行为。最基本的AI 形式是对计算机进行编程，使它们能够根据从过去类似行为中收集的海量数据来“模拟” ... 人工智能(AI) 让机器可以从经验中学习，适应新的输入并像人一样完成任务。您今天所听说到的大多数AI 示例–从下国际象棋的计算机到自动驾驶汽车–都十分依赖深度学习和 ... 現時有兩個主要方法利用電腦、機器、程式及源碼的決策及解決問題能力來模擬人類思維與本能，包括人性化方法及理想化方法。 人工智能; 人性化方法; 理性方法 ... Dec 28, 2018 — 人工智能（Artificial Intelligence），英文缩写为AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学。",
-    "h": "<div class= <very long html text>\n",
-    "vu": "https://aws.amazon.com › what-is-ai https://www.hpe.com › what-is › artif... https://www.sas.com › ... › 分析 https://www.trendmicro.com › what-is https://easyai.tech › ai-definition",
+    "s": "人工智能(AI) 是致力于解决通常与人工智能相关联的认知性问题的计算机科学领域，这些问题包括学习、问题解决和模式识别等。提起人工智能（通常缩写为“AI”），人们可能 ...",
+    "h": "<div class=\"kvH3mc BToiNc UK95Uc\" data-sokoban-container=\"ih6Jnb_MDkvne\"><div class=\"Z26q7c UK95Uc uUuwM jGGQ5e\" data-header-feature=\"0\"><div class=\"yuRUbf\"><a data-jsarwt=\"1\" data-usg=\"AOvVaw2dm3IGPp8PsBqtDv7ZSW7o\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8QFnoECAwQAQ\" href=\"https://aws.amazon.com/cn/machine-learning/what-is-ai/\"><br><h3 class=\"LC20lb MBeuO DKV0Md\">什么是人工智能？_深度学习是什么？ - AWS 云服务</h3><div class=\"TbwUpd NJjxre\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://aws.amazon.com<span class=\"dyjrff qzEoUe\" role=\"text\"> › what-is-ai</span></cite></div></a><div class=\"B6fmyf\"><div class=\"TbwUpd\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://aws.amazon.com<span class=\"dyjrff qzEoUe\" role=\"text\"> › what-is-ai</span></cite></div><div class=\"eFM0qc\"><span class=\"LAWljd\"> · </span><a class=\"fl iUh30\" data-jsarwt=\"1\" data-usg=\"AOvVaw3W1EFzOcRRJfywbFzIsSpE\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q7gF6BAgMEAU\" href=\"https://translate.google.com/translate?hl=en&sl=zh-CN&u=https://aws.amazon.com/cn/machine-learning/what-is-ai/&prev=search&pto=aue\"></a></div><div class=\"csDOgf\"><div data-isdesktop=\"true\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2esEegQIDBAG\"><div><div aria-label=\"About this Result\" class=\"iTPLzd GUHazd lUn2nc eY4mx\" role=\"button\" style=\"padding-bottom:20px;padding-right:5px;position:absolute\" tabindex=\"0\"><span class=\"D6lY4c\"><span class=\"xTFaxe IjabWd z1asCe SaPW2b\" style=\"height:18px;line-height:18px;width:18px\"></span></span></div><span data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Qh-4GegQIDBAH\"></span></div></div></div></div></div></div><div class=\"Z26q7c UK95Uc uUuwM\" data-content-feature=\"1\"><div class=\"VwiC3b yXK7lf MUxGbd yDYNvb lyLwlc lEBKkf\" style=\"-webkit-line-clamp:2\"><span><em>人工智能</em>(AI) 是致力于解决通常与<em>人工智能</em>相关联的认知性问题的计算机科学领域，这些问题包括学习、问题解决和模式识别等。提起<em>人工智能</em>（通常缩写为“AI”），人们可能 ...</span></div></div><div class=\"Z26q7c UK95Uc\"><div data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2Z0BegQIBBAA\" id=\"eob_2\"></div></div></div></div></body></html>",
+    "vu": "https://aws.amazon.com › what-is-ai",
     "type": "URL",
-    "time": "Dec 28, 2018 "
+    "time": ""
   },
   {
     "p": 6,
@@ -123,11 +123,11 @@ json 结果样例如下
     "d": "hpe.com",
     "m": false,
     "t": "什么是人工智能(AI)？ | 词汇表| 慧与",
-    "s": "从广义上来说，人工智能(AI) 是指机器或系统所呈现的任何模拟人类的行为。最基本的AI 形式是对计算机进行编程，使它们能够根据从过去类似行为中收集的海量数据来“模拟” ... 人工智能(AI) 让机器可以从经验中学习，适应新的输入并像人一样完成任务。您今天所听说到的大多数AI 示例–从下国际象棋的计算机到自动驾驶汽车–都十分依赖深度学习和 ... 現時有兩個主要方法利用電腦、機器、程式及源碼的決策及解決問題能力來模擬人類思維與本能，包括人性化方法及理想化方法。 人工智能; 人性化方法; 理性方法 ... Dec 28, 2018 — 人工智能（Artificial Intelligence），英文缩写为AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学。",
-    "h": "<div class= <very long html text>\n",
-    "vu": "https://www.hpe.com › what-is › artif... https://www.sas.com › ... › 分析 https://www.trendmicro.com › what-is https://easyai.tech › ai-definition",
+    "s": "从广义上来说，人工智能(AI) 是指机器或系统所呈现的任何模拟人类的行为。最基本的AI 形式是对计算机进行编程，使它们能够根据从过去类似行为中收集的海量数据来“模拟” ...",
+    "h": "<div class=\"kvH3mc BToiNc UK95Uc\" data-sokoban-container=\"ih6Jnb_x0xOAd\"><div class=\"Z26q7c UK95Uc uUuwM jGGQ5e\" data-header-feature=\"0\"><div class=\"yuRUbf\"><a data-jsarwt=\"1\" data-usg=\"AOvVaw273qD-dVfSOvX9M-2mz9B1\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8QFnoECCcQAQ\" href=\"https://www.hpe.com/cn/zh/what-is/artificial-intelligence.html\"><br><h3 class=\"LC20lb MBeuO DKV0Md\">什么是人工智能(AI)？ | 词汇表| 慧与</h3><div class=\"TbwUpd NJjxre\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://www.hpe.com<span class=\"dyjrff qzEoUe\" role=\"text\"> › what-is › artif...</span></cite></div></a><div class=\"B6fmyf\"><div class=\"TbwUpd\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://www.hpe.com<span class=\"dyjrff qzEoUe\" role=\"text\"> › what-is › artif...</span></cite></div><div class=\"eFM0qc\"><span class=\"LAWljd\"> · </span><a class=\"fl iUh30\" data-jsarwt=\"1\" data-usg=\"AOvVaw2htsZhKMIQf9SLOUOwfp6u\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q7gF6BAgnEAU\" href=\"https://translate.google.com/translate?hl=en&sl=zh-CN&u=https://www.hpe.com/cn/zh/what-is/artificial-intelligence.html&prev=search&pto=aue\"></a></div><div class=\"csDOgf\"><div data-isdesktop=\"true\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2esEegQIJxAG\"><div><div aria-label=\"About this Result\" class=\"iTPLzd GUHazd lUn2nc eY4mx\" role=\"button\" style=\"padding-bottom:20px;padding-right:5px;position:absolute\" tabindex=\"0\"><span class=\"D6lY4c\"><span class=\"xTFaxe IjabWd z1asCe SaPW2b\" style=\"height:18px;line-height:18px;width:18px\"></span></span></div><span data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Qh-4GegQIJxAH\"></span></div></div></div></div></div></div><div class=\"Z26q7c UK95Uc uUuwM\" data-content-feature=\"1\"><div class=\"VwiC3b yXK7lf MUxGbd yDYNvb lyLwlc lEBKkf\" style=\"-webkit-line-clamp:2\"><span>从广义上来说，<em>人工智能</em>(AI) 是指机器或系统所呈现的任何模拟人类的行为。最基本的AI 形式是对计算机进行编程，使它们能够根据从过去类似行为中收集的海量数据来“模拟” ...</span></div></div><div class=\"Z26q7c UK95Uc\"><div data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2Z0BegQIIBAA\" id=\"eob_8\"></div></div></div></div></body></html>",
+    "vu": "https://www.hpe.com › what-is › artif...",
     "type": "URL",
-    "time": "Dec 28, 2018 "
+    "time": ""
   },
   {
     "p": 7,
@@ -135,11 +135,11 @@ json 结果样例如下
     "d": "sas.com",
     "m": false,
     "t": "人工智能–它是什么，它为什么重要 - SAS",
-    "s": "人工智能(AI) 让机器可以从经验中学习，适应新的输入并像人一样完成任务。您今天所听说到的大多数AI 示例–从下国际象棋的计算机到自动驾驶汽车–都十分依赖深度学习和 ... 現時有兩個主要方法利用電腦、機器、程式及源碼的決策及解決問題能力來模擬人類思維與本能，包括人性化方法及理想化方法。 人工智能; 人性化方法; 理性方法 ... Dec 28, 2018 — 人工智能（Artificial Intelligence），英文缩写为AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学。",
-    "h": "<div class= <very long html text>\n",
-    "vu": "https://www.sas.com › ... › 分析 https://www.trendmicro.com › what-is https://easyai.tech › ai-definition",
+    "s": "人工智能(AI) 让机器可以从经验中学习，适应新的输入并像人一样完成任务。您今天所听说到的大多数AI 示例–从下国际象棋的计算机到自动驾驶汽车–都十分依赖深度学习和 ...",
+    "h": "<div class=\"kvH3mc BToiNc UK95Uc\" data-sokoban-container=\"ih6Jnb_RNJgYd\"><div class=\"Z26q7c UK95Uc uUuwM jGGQ5e\" data-header-feature=\"0\"><div class=\"yuRUbf\"><a data-jsarwt=\"1\" data-usg=\"AOvVaw3I8tqhfATivTJci9xB4b_Q\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8QFnoECCYQAQ\" href=\"https://www.sas.com/zh_cn/insights/analytics/what-is-artificial-intelligence.html\"><br><h3 class=\"LC20lb MBeuO DKV0Md\">人工智能–它是什么，它为什么重要 - SAS</h3><div class=\"TbwUpd NJjxre\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://www.sas.com<span class=\"dyjrff qzEoUe\" role=\"text\"> › ... › 分析</span></cite></div></a><div class=\"B6fmyf\"><div class=\"TbwUpd\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://www.sas.com<span class=\"dyjrff qzEoUe\" role=\"text\"> › ... › 分析</span></cite></div><div class=\"eFM0qc\"><span class=\"LAWljd\"> · </span><a class=\"fl iUh30\" data-jsarwt=\"1\" data-usg=\"AOvVaw0_JwimT4A52Xr9xH6QRgTE\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q7gF6BAgmEAU\" href=\"https://translate.google.com/translate?hl=en&sl=zh-CN&u=https://www.sas.com/zh_cn/insights/analytics/what-is-artificial-intelligence.html&prev=search&pto=aue\"></a></div><div class=\"csDOgf\"><div data-isdesktop=\"true\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2esEegQIJhAG\"><div><div aria-label=\"About this Result\" class=\"iTPLzd GUHazd lUn2nc eY4mx\" role=\"button\" style=\"padding-bottom:20px;padding-right:5px;position:absolute\" tabindex=\"0\"><span class=\"D6lY4c\"><span class=\"xTFaxe IjabWd z1asCe SaPW2b\" style=\"height:18px;line-height:18px;width:18px\"></span></span></div><span data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Qh-4GegQIJhAH\"></span></div></div></div></div></div></div><div class=\"Z26q7c UK95Uc uUuwM\" data-content-feature=\"1\"><div class=\"VwiC3b yXK7lf MUxGbd yDYNvb lyLwlc lEBKkf\" style=\"-webkit-line-clamp:2\"><span><em>人工智能</em>(AI) 让机器可以从经验中学习，适应新的输入并像人一样完成任务。您今天所听说到的大多数AI 示例–从下国际象棋的计算机到自动驾驶汽车–都十分依赖深度学习和 ...</span></div></div><div class=\"Z26q7c UK95Uc\"><div data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2Z0BegQIHxAA\" id=\"eob_7\"></div></div></div></div></body></html>",
+    "vu": "https://www.sas.com › ... › 分析",
     "type": "URL",
-    "time": "Dec 28, 2018 "
+    "time": ""
   },
   {
     "p": 8,
@@ -147,11 +147,11 @@ json 结果样例如下
     "d": "trendmicro.com",
     "m": false,
     "t": "甚麼是人工智能？ - Trend Micro",
-    "s": "現時有兩個主要方法利用電腦、機器、程式及源碼的決策及解決問題能力來模擬人類思維與本能，包括人性化方法及理想化方法。 人工智能; 人性化方法; 理性方法 ... Dec 28, 2018 — 人工智能（Artificial Intelligence），英文缩写为AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学。",
-    "h": "<div class= <very long html text>\n",
-    "vu": "https://www.trendmicro.com › what-is https://easyai.tech › ai-definition",
+    "s": "現時有兩個主要方法利用電腦、機器、程式及源碼的決策及解決問題能力來模擬人類思維與本能，包括人性化方法及理想化方法。 人工智能; 人性化方法; 理性方法 ...",
+    "h": "<div class=\"kvH3mc BToiNc UK95Uc\" data-sokoban-container=\"ih6Jnb_h0sUmf\"><div class=\"Z26q7c UK95Uc uUuwM jGGQ5e\" data-header-feature=\"0\"><div class=\"yuRUbf\"><a data-jsarwt=\"1\" data-usg=\"AOvVaw3K6LDGo-ngye0YwQE2KdHr\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8QFnoECCUQAQ\" href=\"https://www.trendmicro.com/zh_hk/what-is/machine-learning/artificial-intelligence.html\"><br><h3 class=\"LC20lb MBeuO DKV0Md\">甚麼是人工智能？ - Trend Micro</h3><div class=\"TbwUpd NJjxre\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://www.trendmicro.com<span class=\"dyjrff qzEoUe\" role=\"text\"> › what-is</span></cite></div></a><div class=\"B6fmyf\"><div class=\"TbwUpd\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://www.trendmicro.com<span class=\"dyjrff qzEoUe\" role=\"text\"> › what-is</span></cite></div><div class=\"eFM0qc\"><span class=\"LAWljd\"> · </span><a class=\"fl iUh30\" data-jsarwt=\"1\" data-usg=\"AOvVaw2J2p06TEH2e4SdSOp0Y0E4\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q7gF6BAglEAU\" href=\"https://translate.google.com/translate?hl=en&sl=zh-TW&u=https://www.trendmicro.com/zh_hk/what-is/machine-learning/artificial-intelligence.html&prev=search&pto=aue\"></a></div><div class=\"csDOgf\"><div data-isdesktop=\"true\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2esEegQIJRAG\"><div><div aria-label=\"About this Result\" class=\"iTPLzd GUHazd lUn2nc eY4mx\" role=\"button\" style=\"padding-bottom:20px;padding-right:5px;position:absolute\" tabindex=\"0\"><span class=\"D6lY4c\"><span class=\"xTFaxe IjabWd z1asCe SaPW2b\" style=\"height:18px;line-height:18px;width:18px\"></span></span></div><span data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Qh-4GegQIJRAH\"></span></div></div></div></div></div></div><div class=\"Z26q7c UK95Uc uUuwM\" data-content-feature=\"1\"><div class=\"VwiC3b yXK7lf MUxGbd yDYNvb lyLwlc lEBKkf\" style=\"-webkit-line-clamp:2\"><span>現時有兩個主要方法利用電腦、機器、程式及源碼的決策及解決問題能力來模擬人類思維與本能，包括人性化方法及理想化方法。 <em>人工智能</em>; 人性化方法; 理性方法 ...</span></div></div><div class=\"Z26q7c UK95Uc\"><div data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2Z0BegQIHhAA\" id=\"eob_6\"></div></div></div></div></body></html>",
+    "vu": "https://www.trendmicro.com › what-is",
     "type": "URL",
-    "time": "Dec 28, 2018 "
+    "time": ""
   },
   {
     "p": 9,
@@ -160,10 +160,10 @@ json 结果样例如下
     "m": false,
     "t": "「2021更新」一文看懂人工智能- AI",
     "s": "Dec 28, 2018 — 人工智能（Artificial Intelligence），英文缩写为AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学。",
-    "h": "<div class= <very long html text>\n",
+    "h": "<div class=\"kvH3mc BToiNc UK95Uc\" data-sokoban-container=\"ih6Jnb_ZJTelc\"><div class=\"Z26q7c UK95Uc uUuwM jGGQ5e\" data-header-feature=\"0\"><div class=\"yuRUbf\"><a data-jsarwt=\"1\" data-usg=\"AOvVaw3FZ8XTiOsvYBmRPoJ6GW_w\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8QFnoECCsQAQ\" href=\"https://easyai.tech/ai-definition/ai/\"><br><h3 class=\"LC20lb MBeuO DKV0Md\">「2021更新」一文看懂人工智能- AI</h3><div class=\"TbwUpd NJjxre\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://easyai.tech<span class=\"dyjrff qzEoUe\" role=\"text\"> › ai-definition</span></cite></div></a><div class=\"B6fmyf\"><div class=\"TbwUpd\"><cite class=\"iUh30 qLRx3b tjvcx\" role=\"text\">https://easyai.tech<span class=\"dyjrff qzEoUe\" role=\"text\"> › ai-definition</span></cite></div><div class=\"eFM0qc\"><span class=\"LAWljd\"> · </span><a class=\"fl iUh30\" data-jsarwt=\"1\" data-usg=\"AOvVaw3vhncHkPiexrafA_7wVoAx\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q7gF6BAgrEAU\" href=\"https://translate.google.com/translate?hl=en&sl=zh-CN&u=https://easyai.tech/ai-definition/ai/&prev=search&pto=aue\"></a></div><div class=\"csDOgf\"><div data-isdesktop=\"true\" data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2esEegQIKxAG\"><div><div aria-label=\"About this Result\" class=\"iTPLzd GUHazd lUn2nc eY4mx\" role=\"button\" style=\"padding-bottom:20px;padding-right:5px;position:absolute\" tabindex=\"0\"><span class=\"D6lY4c\"><span class=\"xTFaxe IjabWd z1asCe SaPW2b\" style=\"height:18px;line-height:18px;width:18px\"></span></span></div><span data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Qh-4GegQIKxAH\"></span></div></div></div></div></div></div><div class=\"Z26q7c UK95Uc uUuwM\" data-content-feature=\"1\"><div class=\"VwiC3b yXK7lf MUxGbd yDYNvb lyLwlc lEBKkf\" style=\"-webkit-line-clamp:2\"><span class=\"MUxGbd wuQ4Ob WZ8Tjf\"><span>Dec 28, 2018</span> — </span><span><em>人工智能</em>（Artificial Intelligence），英文缩写为AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学。</span></div></div><div class=\"Z26q7c UK95Uc\"><div data-ved=\"2ahUKEwjopb2sqNr5AhX6tlYBHYWvBE8Q2Z0BegQIJBAA\" id=\"eob_9\"></div></div></div></div></body></html>",
     "vu": "https://easyai.tech › ai-definition",
     "type": "URL",
-    "time": "Dec 28, 2018 "
+    "time": "Dec 28, 2018"
   }
 ]
 ```
@@ -187,10 +187,6 @@ return {
 
 ### known bugs
 
-- 切分 snippet 结果不正确, 并导致了后面的错误
-- s 结果包含内容过多
-- vu 结果包含内容过多
-- time 结果是页面内任何一个有效时间
 
 ### 致谢
 

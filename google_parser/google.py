@@ -15,12 +15,12 @@ return {
 }
 """
 
+import html
 import re
 import unicodedata
 from urllib.parse import quote, unquote
 from urllib.parse import urlparse, urlunsplit, urlsplit, urljoin
 
-from lxml import etree
 from bs4 import BeautifulSoup
 from pyquery import PyQuery
 from scrapy.selector import Selector
@@ -33,20 +33,30 @@ class GoogleSerpCleaner(object):
 
     _patterns = (
         r'<script.*?<\/script>',
-        r'<style.*?<\/style>',
-        r'onmousedown=".*?"',
-        r'onclick=".*?"',
-        r'class=".*?"',
-        r'target="_blank"',
-        r'title=".*?"',
-        r'ondblclick=".*?"',
-        r'style=".*?"',
-        r'<i\s+><\/i>',
-        r'\s+tabindex="\d+"',
         r'<noscript>.*?<\/noscript>',
-        r'<link.*?/>',
-        r'><!--.*?-->',
-        r'<i\s+><\/i>',
+        r'<svg\s+.*?>.*?</svg>',
+        r'jsdata=".*?"',
+        r'jsaction=".*?"',
+        r'jscontroller=".*?"',
+        r'jsname=".*?"',
+        r'jsshadow=".*?"',
+        r'jsmodel=".*?"',
+        r'jsslot=".*?"',
+        r'<span>Translate this page</span>',
+        r'<!--.*?-->',
+        # r'id=".*?"',
+        # r'<style.*?<\/style>',
+        # r'onmousedown=".*?"',
+        # r'onclick=".*?"',
+        # r'class=".*?"',
+        # r'target="_blank"',
+        # r'title=".*?"',
+        # r'ondblclick=".*?"',
+        # r'style=".*?"',
+        # r'\s+tabindex="\d+"',
+        # r'<link.*?/>',
+        # r'><!--.*?-->',
+        # r'<i\s+><\/i>',
     )
     patterns = []
     for p in _patterns:
@@ -54,15 +64,32 @@ class GoogleSerpCleaner(object):
     patterns = tuple(patterns)
 
     no_space = re.compile(r'\s+', flags=flags)
+    function_space = re.compile(r'\(function\(\)\{[\n\r]+.*();', flags=re.DOTALL)
 
     @classmethod
     def clean(cls, content):
-        content = content
+        """清除无关标签"""
+        content = cls.no_space.sub(' ', content)
+        content = cls.clean_script_and_style(content)
         for p in cls.patterns:
             content = p.sub('', content)
-
-        content = cls.no_space.sub(' ', content)
         return content
+
+    @classmethod
+    def clean_script_and_style(cls, content):
+        """去除 script 和 style 标签"""
+        soup = BeautifulSoup(content, "html5lib")
+        [script.extract() for script in soup.findAll('script')]
+        [style.extract() for style in soup.findAll('style')]
+        content = soup.body.decode_contents()
+        return content
+
+    @classmethod
+    def format_div_html(cls, html):
+        """格式化为完整 html"""
+        soup = BeautifulSoup(html, "html5lib")
+        format_html = soup.body.div.prettify()
+        return format_html
 
 
 class GoogleParser(object):
@@ -139,39 +166,57 @@ class GoogleParser(object):
 
 class SnippetsParserDefault(object):
     """调试时间: 2022-08-23"""
-    snippets_regexp = re.compile(r'(<div class="g">.*?</div><!--n--></div>)', re.I | re.M | re.S)
+    result_regexp = re.compile(r'(<div class="main" id="main">.*?)<!-- cctlcm 5 cctlcm -->', re.I | re.M | re.S)
 
     def __init__(self, snippet_fields):
         self.snippet_fields = snippet_fields
 
     def get_snippets(self, body):
-        body_list = []
-        body_selector = Selector(text=body)
-        main_div_list = body_selector.css('div.main').getall()
-        if len(main_div_list) == 0:
-            raise NoBodyInResponseError('no body in response')
-        else:
-            for main_div in main_div_list:
-                body_list.append(main_div)
+        body_list = self.result_regexp.findall(body)
+        if not body_list:
+            raise GoogleParserError('no body in response')
 
         result = []
         position = 0
         for body_html in body_list:
-            snippet_selector = Selector(text=body_html, type='html')
-            snippets = snippet_selector.css('div.g.tF2Cxc').getall()
-            # soup = BeautifulSoup(body_html, "html5lib")
-            # body_html = soup.prettify()
-            # dom = PyQuery(body_html)
-            # snippets = dom('div.g.tF2Cxc')
+            body_html = GoogleSerpCleaner.clean(body_html)
 
+            # 每个条目块
+            soup = BeautifulSoup(body_html, features="html5lib")
+            snippets = soup.select('div.tF2Cxc')
+            if not snippets:
+                snippets = soup.select('div.vt6azd')
+            if not snippets:
+                snippets = soup.select('div.Ww4FFb')
+            snippets = [str(item) for item in snippets]
+
+            # 每个 snippet 包含了后面所有的条目的内容, 这里只取第一个 div
+            snippets_new = []
             for snippet in snippets:
-                # html = etree.tostring(snippet).decode()
-                html = snippet
+                html_text = snippet
+                snippet_selector = Selector(text=html_text)
+                # print(html_text)
+                # print('<br/><br/>')
+                snippet_html = snippet_selector.css('body>div>div.kvH3mc:first-child').get()
+                if snippet_html is None:
+                    snippet_html = snippet_selector.css('body>div>div.BToiNc>div:first-child').get()
+                if snippet_html is None:
+                    snippet_html = snippet_selector.css('body>div>div.UK95Uc>div:first-child').get()
+                if snippet_html is not None:
+                    snippets_new.append(snippet_html)
+
+            for snippet in snippets_new:
+                html_unescaped = html.unescape(snippet).strip()
+                if re.search(r'<span class="[^"]+?">广告</?span>?', html_unescaped, flags=re.I):
+                    continue
+                # print(html_unescaped)
+                # print('<br/><br/>')
+
                 position += 1
                 try:
-                    item = self.get_snippet(position, html)
+                    item = self.get_snippet(position, html_unescaped)
                 except SnippetsParserException:
-                    if self._is_empty_snippet(html):
+                    if self._is_empty_snippet(html_unescaped):
                         position -= 1
                         continue
                     else:
@@ -359,9 +404,15 @@ class SnippetsParserDefault(object):
 
     def _parse_description_snippet(self, snippet):
         """搜索结果里的文本描述"""
-        dom = PyQuery(snippet)
-        aim_text = dom('.VwiC3b').text()
-        return SnippetsParserDefault.strip_tags(aim_text)
+        soup = BeautifulSoup(snippet, features="html.parser")
+        for script in soup(["script", "style"]):
+            script.extract()
+        ele_list = soup.select('div[data-content-feature="1"]')
+        if len(ele_list) > 0:
+            aim_text = ele_list[0].get_text()
+            return aim_text
+        else:
+            return ''
 
     def _get_descr(self, snippet, url):
         """结果的文本描述"""
@@ -371,7 +422,7 @@ class SnippetsParserDefault(object):
             else:
                 return self._parse_description_snippet(snippet)
 
-    def _get_html(self, snippet, clean_tag=True):
+    def _get_html(self, snippet, clean_tag=False):
         """结果片段的 html"""
         if 'h' in self.snippet_fields:
             if clean_tag:
@@ -399,4 +450,4 @@ class SnippetsParserDefault(object):
         dom = PyQuery(snippet)
         aim_text = dom('.MUxGbd.wuQ4Ob.WZ8Tjf').text()
         text = SnippetsParserDefault.strip_tags(aim_text).strip().strip('—')
-        return text
+        return text.strip()

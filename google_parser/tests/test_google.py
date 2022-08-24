@@ -1,11 +1,13 @@
 # -*- coding: UTF-8 -*-
 import json
+import html
 
+import traceback
 import unittest
 
 from google_parser.exceptions import GoogleParserError, NoBodyInResponseError
 from google_parser.tests import GoogleParserTests
-from google_parser.google import GoogleParser
+from google_parser.google import GoogleParser, SnippetsParserDefault
 from google_query import GoogleQuery
 
 
@@ -81,7 +83,11 @@ class GoogleParserTestCase(GoogleParserTests):
     def test3(self):
         html = self.get_data('1_人工智能-1_2022-08-22.html')
         parser = GoogleParser(html, snippet_fields=('d', 'p', 'u', 't', 's', 'm', 'h', 'vu', 'type', 'time'))
-        snippets = parser.get_snippets()
+        # parser = GoogleParser(html, snippet_fields=('d', 'p', 'u', 't', 's', 'm', 'vu', 'type', 'time'))
+        try:
+            snippets = parser.get_snippets()
+        except Exception as e:
+            traceback.print_exc()
         print(json.dumps(snippets, ensure_ascii=False, indent=4))
         self.assertEqual(len(snippets), 9)
         for snippet in snippets:
