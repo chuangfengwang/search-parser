@@ -3,3 +3,4 @@ requests==2.25.1
 pyquery==1.4.3
 lxml==4.4.1
 beautifulsoup4==4.11.1
+html5lib==1.1
