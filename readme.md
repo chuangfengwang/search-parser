@@ -1,10 +1,40 @@
 ### 项目介绍
 
-一个用于解析搜索引擎结果页面的 python 库, 仅支持 python3.
+一个解析搜索引擎结果页面的 python 库.
 
-目前仅支持 google 搜索结果解析
+项目地址: [github](https://github.com/chuangfengwang/search-parser)
+
+支持功能
+
+- 构造 google 搜索请求的 url: GoogleQuery
+- 支持指定搜索时间范围: 不设定,过去一年,过去一月,过去一周,过去一天,过去一小时
+- 支持取结果的第几页(从 0 开始编号)
+- 支持提取结果的第几页, 下一页 url, 上一页 url
+- 支持提取结果的字段见后文
+- 提供一个 splash 请求代理
+
+功能限制
+
+- 仅支持 python3
+- 目前仅支持 google 搜索结果解析
+- 目前仅支持一般横条显示的内容解析,暂不支持地图类型,视频类型,图片类型,级联内容的解析
+
+### 示例
+
+搜索"人工智能"得到的两个结果以及解析出来的字段
+
+![人工智能-1](doc/item-case-1.png)
+
+![人工智能-2](doc/item-case-2.png)
+
+![google谷歌搜索引擎结果解析示例](doc/result_case.png)
 
 ### google-parser 使用方式
+
+- 安装 python3 环境(可以用 virtualenv, conda 等)
+- 下载本项目源码
+- pip 安装 requirements.txt 里的依赖(`pip install -r requirements.txt`)
+- 调用方式如下
 
 ```python
 import json
@@ -14,17 +44,17 @@ from google_parser import GoogleParser
 
 # 首先安装 splash; 如有需要, 安装用于访问 google 的网络代理
 # 代理地址配置
-splash_html_url = 'http://192.168.0.107:8050/render.html'
-splash_json_url = 'http://192.168.0.107:8050/render.json'
-splash_execute_url = 'http://192.168.0.107:8050/execute'
-splash_proxy = 'http://192.168.0.107:8118'  # splash 访问网页使用的代理
+splash_html_url = 'http://127.0.0.1:8050/render.html'
+splash_json_url = 'http://127.0.0.1:8050/render.json'
+splash_execute_url = 'http://127.0.0.1:8050/execute'
+splash_proxy = 'http://127.0.0.1:8118'  # splash 访问网页使用的代理
 
 # splash 代理
 splash_agent = SplashAgent(splash_url=splash_html_url, splash_proxy=splash_proxy)
 
 query = '查询词,搜索框输入的内容'
-time_select = 'y'  # '':不设定,'y':过去一年,'m':过去一月,'w':过去一周,'d':过去一天,'h':过去一小时
-page_num = 0  # 需要第几页结果,从 0 开始编号
+time_select = 'y'  # '':不设定,默认,'y':过去一年,'m':过去一月,'w':过去一周,'d':过去一天,'h':过去一小时
+page_num = 0  # 需要第几页结果,从 0 开始编号,默认 0
 query_url = GoogleQuery(zone='com', query=query, tbs=time_select, start=page_num).get_url()
 
 html = splash_agent.get_html(query_url)
@@ -54,7 +84,24 @@ html_next_page = splash_agent.get_html(next_page_url)
 
 ```
 
-json 结果样例如下
+### google-parser 结果字段含义
+
+```python
+{
+    'p': position,  # 页面内第几个
+    'u': url,  # 结果的 url
+    'd': cls._get_domain(url),  # 结果的域名
+    'm': cls._is_map_snippet(url),  # 是不是地图类结果
+    't': cls._get_title(title),  # 结果的标题
+    's': cls._get_descr(snippet, url),  # 结果的描述文本
+    'h': cls._get_html(snippet),  # 结果的 html 片段, 有对原html做过修改,如去除 script 标签等
+    'vu': cls._get_vu(snippet),  # 面包屑导航
+    'type': _get_type(snippet),  # 结果类型: PDF,URL 等
+    'time': _get_type(time),  # 结果页中显示的发布时间,是结果页显示的形式,如: "Dec 28, 2018"
+}
+```
+
+### json 结果样例如下
 
 ```json
 [
@@ -169,24 +216,11 @@ json 结果样例如下
 ]
 ```
 
-### google-parser 结果字段含义
-
-```python
-return {
-    'p': position,  # 页面内第几个
-    'u': url,  # 结果的 url
-    'd': cls._get_domain(url),  # 结果的域名
-    'm': cls._is_map_snippet(url),  # 是不是地图类结果
-    't': cls._get_title(title),  # 结果的标题
-    's': cls._get_descr(snippet, url),  # 结果的描述文本
-    'h': cls._get_html(snippet),  # 结果的 html
-    'vu': cls._get_vu(snippet),  # 面包屑导航
-    'type': _get_type(snippet),  # 结果类型: PDF,URL
-    'time': _get_type(time),  # 结果也中显示的发布时间
-}
-```
-
 ### known bugs
+
+项目采用了正则, PyQuery, Beautiful Soup, Scrapy Selector 多种提取方式
+
+后期希望逐渐淘汰 PyQuery 和 Scrapy Selector 方式, 将主要使用 Beautiful Soup 解析.
 
 ### 致谢
 

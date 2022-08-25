@@ -85,10 +85,10 @@ class GoogleSerpCleaner(object):
         return content
 
     @classmethod
-    def format_div_html(cls, html):
-        """格式化为完整 html"""
-        soup = BeautifulSoup(html, "html5lib")
-        format_html = soup.body.div.prettify()
+    def format_html(cls, html_text):
+        """格式化 html 片段"""
+        soup = BeautifulSoup(html_text, "html.parser")  # 解析器不可换为其他的,行为表现不同
+        format_html = soup.prettify()
         return format_html
 
 

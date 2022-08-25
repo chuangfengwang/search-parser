@@ -7,7 +7,7 @@ import unittest
 
 from google_parser.exceptions import GoogleParserError, NoBodyInResponseError
 from google_parser.tests import GoogleParserTests
-from google_parser.google import GoogleParser, SnippetsParserDefault
+from google_parser.google import GoogleParser, SnippetsParserDefault, GoogleSerpCleaner
 from google_query import GoogleQuery
 
 
@@ -98,6 +98,12 @@ class GoogleParserTestCase(GoogleParserTests):
             self.assertTrue(snippet.get('s'))
             self.assertTrue(snippet.get('h'))
             self.assertTrue(snippet.get('type'))
+
+    def test4(self):
+        """测试 html 格式化"""
+        html_text = self.get_data('snippet-1.txt')
+        format_text = GoogleSerpCleaner.format_html(html_text)
+        print(format_text)
 
     def print_sn(self, snippets):
         for i in snippets:
